@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Certs</title>
+  <link rel="stylesheet" href="AICerts.css">
+  <style>
+    
+    .toggle-nav {
+      display: none;
+    }
+    @media only screen and (max-width: 768px) {
+      .toggle-nav {
+        display: block;
+        background-color: #cfa935;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        text-align: center;
+      }
+      .navbar > div {
+        display: none;
+      }
+      .navbar.expanded > div {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="video">
+      <video width="100%" autoplay="" muted="" loop="" poster="https://www.aicerts.io/wp-content/uploads/2024/03/videoposter.png">
+        <source src="https://www.aicerts.io/wp-content/uploads/2024/03/Video-banner.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="toggle-nav" onclick="toggleNavbar()">Menu</div>
+    <nav class="navbar">
+      <div class="logo"><img src="https://www.aicerts.io/wp-content/themes/aicerts/images/logo-white.svg"></div>
+      <div onclick="scrollToSection('about-section')">About</div>
+      <div onclick="scrollToSection('certification-section')">Certification</div>
+      <div onclick="scrollToSection('authorized-partner-section')">Authorized Partner</div>
+      <div onclick="scrollToSection('authorized-trainers-section')">Authorized Trainers</div>
+      <div onclick="scrollToSection('resources-section')">Resources</div>
+      <div onclick="scrollToSection('contact-section')">Contact</div>
+      <div class="get-cert">Get Certified</div>
+    </nav>
+
+    <div class="slogan1">
+      <div>Lead Businesses 
+        <div>into <a class="future">Future</a></div>
+      </div>
+    </div>
+    <div class="slogan2">BY HARNESSING CUTTING-EDGE AI AND BLOCKCHAIN KNOWLEDGE</div>
+  </header>
+
+  <div class="cont-container">
+    <div id="about-section" class="different-fields">
+      <div><p>AI Executive <sup>TM</sup></p></div>
+      <div><p>AI+ Developer <sup>TM</sup></p></div>
+      <div>AI+ Ethics <sup>TM</sup></div>
+      <div>AI+ Data <sup>TM</sup></div>
+      <div>AI+ Prompt Engineer<sup>TM</sup></div>
+      <div>AI+ Prompt Engineer<sup>TM</sup></div>
+      <div>AI+ Sales<sup>TM</sup></div>
+      <div>AI+ Marketing<sup>TM</sup></div>
+      <div>Bitcoin+ Executive<sup>TM</sup></div>
+      <div>Bitcoin+ Developer<sup>TM</sup></div>
+    </div>
+
+    <div class="we-do">WHAT WE DO</div>
+    <div class="mission">At AI Certs<sup>TM</sup>, our mission is to certify
+      <div>and empower 1 billion individuals with premier</div> 
+      <div>AI and Blockchain certifications.</div>  
+    </div>
+    <div class="join-us">Join us in our mission to shape the AI and Blockchain industry!</div>
+
+    <div class="why-ai-img">
+      <img class="image1" src="https://www.aicerts.io/wp-content/uploads/2024/03/why-ai-certs.jpg" alt="">
+    </div>
+    <div class="why-ai-text">
+      <p class="vlaue">vlaue</p>
+      <p class="why-ai-certs">Why AI CERTs?</p>
+      <p class="socila-impact">-Social Impact and Global Vision</p>
+      <div class="ai-certs">
+        <p>AI certs<sup>TM</sup> aims to certify and train a billion people, leveraging education to create a better world. We pledge 10% of our yearly profits to construct schools for underprivileged children, embodying our commitment to societal betterment through education.</p>
+      </div>
+      <div class="why-ai-text-points">
+        <hr style="opacity: 0.25">
+        <p>+ Comprehensive AI Certification <sup>TM</sup> Portfolio
+          <hr style="opacity: 0.25">
+        </p>
+        <p>+ Pioneering in AI and Blockchain Convergence</p>
+        <hr style="opacity: 0.25">
+        <p>+ Innovative Certification Testing</p>
+        <hr style="opacity: 0.25">
+        <p>+ Expertise-Driven Team</p>
+        <hr style="opacity: 0.25">
+        <p>+ Expert Network of Subject Matter Experts</p>
+        <hr style="opacity: 0.25">
+        <p>+ Industry Recognition and Validation</p>
+      </div>
+    </div>
+
+    <div class="prof-cert-container">
+      <div>
+        <img class="prof-image" src="https://www.aicerts.io/wp-content/uploads/2024/03/Professional-Certifications.jpg">
+      </div>
+      <div class="prof-text">
+        <p class="prof-text1">Professional Certifications</p>
+        <p class="prof-text2">Learn how Certification can Transform Every</p>
+        <p class="prof-text3">Department of your Organization</p>
+        <button class="prof-button">Explore More</button>
+      </div>
+    </div>
+    
+    <div class="tech-cert-container">
+      <div>
+        <img class="tech-image" src="https://www.aicerts.io/wp-content/uploads/2024/03/Technical-Certifications.jpg">
+      </div>
+      <div class="tech-text">
+        <p class="tech-text1">Technical Certification</p>
+        <p class="tech-text2">Learn how Certification can Transform your</p>
+        <p class="tech-text3">IT Department</p>
+        <button class="tech-button">Explore More</button>
+      </div>
+    </div>
+
+    <div class="ai-certs-info">
+      <div class="ai-certs-mail-section">
+        <div><img class="ai-certs-logo" src="https://www.aicerts.io/wp-content/themes/aicerts/images/logo-white.svg"></div>
+        <div><p class="text-below-logo">AI & BLOCKCHAIN CERTIFICATIONS!</p></div>
+        <h3 class="news-letter-signup">Newsletter Signup</h3>
+        <div class="mail-btn">
+          <input class="mail-id" size="40" placeholder="Enter your Email" value="" type="email" name="subscriber-email">
+          <button class="sbmt-btn" onclick="validateEmail()">→</button>
+        </div>
+      </div>
+      
+      <div class="abt-cert-auth">
+        <div class="about">
+          <h1>About</h1><br>
+          <p>Why AI Certs</p>
+          <p>Accreditation</p>
+          <p>Meet Our Team</p>
+          <p>Trademarks</p>
+          <p>Articles</p>
+          <p>Press Release</p>
+          <p>Testimonials</p>
+          <p>Career</p>
+          <p>Contact</p>
+        </div>
+        <div class="certifications">
+          <h1>Certification</h1><br>
+          <p>AI+ Professional<sup>TM</sup></p>
+          <p>AI+ Technical<sup>TM</sup></p>
+          <p>Blockchain+ Professional<sup>TM</sup></p>
+          <p>Blockchain+ Technical<sup>TM</sup></p>
+          <p>View All</p>
+        </div>
+        <div class="authorized">
+          <h1>Authorized</h1><br>
+          <p>Authorized Partners</p>
+          <p>Authorized Trainers</p>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <hr width="2090vh" style="margin-left: 15rem"><br><br><br>
+    <p class="copyright">Copyright © AI CERTs<sup>TM</sup>, Inc. All Rights Reserved </p>
+    <br><br>
+
+    
+    <script src="AICerts.js"></script>
+  </div>
+</body>
+</html>
+

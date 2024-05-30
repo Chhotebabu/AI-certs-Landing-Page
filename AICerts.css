@@ -1,0 +1,273 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+.header{
+  background-color: black;
+  color: white;
+  width: auto;
+  height: 980px;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.video,.navbar{
+  display: flex;
+}
+.navbar{
+  position: relative;
+  margin-top: -955px;
+}
+/* .navbar{
+  display: flex;
+} */
+.navbar>div{
+  margin: 20px;
+}
+
+.navbar>.logo{
+  margin-left: 120px;
+}
+.get-cert{
+  display: flex;
+  background-color: #cfa935;
+  height: fit-content;
+  padding: 10px;
+}
+
+.navbar>.get-cert{
+  margin-left: 950px;
+}
+
+.slogan1{
+  font-size: 80px;
+  margin-top: 12vh;
+  margin-left: 20vh;
+  
+}
+
+.future{
+  background-color: #cfa935;
+}
+
+.slogan2{
+  margin-left: 20vh;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.cont-container{
+  background-color: black;
+  color: white;
+}
+
+.different-fields{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* background-color: #171a24; */
+  margin: 10px;
+  font-size: 18px;
+}
+
+.different-field>.p{
+  background-color: #171a24;
+}
+.cont-container>.we-do{
+  text-align: center;
+  margin-top: 8rem;
+  font-size: 25px;
+}
+.mission{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 48px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.join-us{
+  color: #cfa935;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 10rem;
+}
+
+.image1{
+  border-radius: 20px;
+  width: 929px;
+  height: 947px;
+}
+.why-ai-img,.why-ai-text{
+  display: flex;
+  display: inline-block;
+}
+.why-ai-text{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 929px;
+  height: 947px;
+  margin-left: 10rem;
+}
+.vlaue{
+  font-size: 30px;
+  
+}
+.why-ai-certs{
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.socila-impact{
+  font-size: 30px;
+  margin-top: 50px;
+}
+.ai-certs{
+  font-size: 28px;
+  color: rgb(204, 199, 193);
+  block-size: fit-content;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.why-ai-text-points{
+  font-size: 30px;
+  line-height: 2.5;
+}
+.hr{
+  height: 0.5px;
+}
+.prof-cert-container{
+  margin-top: 10rem;
+  position: relative;
+}
+.prof-image{
+  height: 650px;
+  width: 50vw
+
+}
+.prof-cert-container,.tech-cert-container{
+  display: flex;
+  display: inline-block;
+  
+}
+
+.tech-cert-container{
+  position: absolute;
+  margin-top: 10rem;
+}
+
+.tech-image{
+  height: 650px;
+  width: 49vw
+}
+.prof-text{
+  margin-top: -450px;
+  margin-left: 12rem;
+}
+.prof-text1{
+  width: 80vh;
+  font-size: 80px;
+}
+.prof-text2,.prof-text3{
+  font-size: 30px;
+}
+.tech-text{
+  margin-top: -450px;
+  margin-left: 12rem;
+}
+.tech-text1{
+  width: 80vh;
+  font-size: 80px;
+}
+.tech-text2,.tech-text3{
+  font-size: 30px;
+}
+.tech-button{
+  margin-top: 30px;
+  background-color: #cfa935;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px; 
+  cursor: pointer;
+}
+.tech-button:hover {
+  background-color: #e2bf58;
+  transform: scale(1.05);
+}
+.prof-button {
+  margin-top: 30px;
+  background-color: #cfa935;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px; 
+  cursor: pointer;
+}
+
+.prof-button:hover {
+  background-color: #e2bf58;
+  transform: scale(1.05);
+}
+
+.ai-certs-info{
+  margin-top: 20rem;
+}
+.ai-certs-mail-section{
+  width: 50vh;
+}
+.mail-id{
+  width: 80vh;
+  height: 40px;
+}
+.sbmt-btn{
+  color: white;
+  background-color: black;
+}
+.ai-certs-logo{
+  width: 20rem;
+}
+.text-below-logo{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 2.5rem;
+}
+.news-letter-signup{
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5rem;
+}
+.mail-btn{
+  margin-top: 2rem;
+  display: flex;
+  border: none;
+}
+.hr-tag{
+  height: 2rem;
+}
+.ai-certs-info,.abt-cert-auth{
+  display: flex;
+}
+.ai-certs-info{
+  margin-left: 15rem;
+}
+.about{
+  margin-left: 22rem;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.certifications{
+  margin-left: 13rem;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.authorized{
+  margin-left: 13rem;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.copyright{
+  font-size: 30px;
+  margin-left: 15rem;
+}
+.about>p,.certifications>p,.authorized>p{
+  color: #7f7d84;
+}
